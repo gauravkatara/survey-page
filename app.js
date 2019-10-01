@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello World!!!');
+  res.send('Hello World Test!!!');
 });
 
 app.get('/echo/:name', (req, res) => {
@@ -13,5 +13,5 @@ app.get('/echo/:name', (req, res) => {
 const port = process.env.PORT || 7000;
 
 app.listen(port, () => {
-  console.log(`Hello Port: ${port}`);
+  console.log(`Hello Port Test: ${port}`);
 });
