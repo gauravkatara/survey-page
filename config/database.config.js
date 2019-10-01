@@ -5,5 +5,5 @@
 
 
 module.exports = {
-    url: 'mongodb://localhost:27017/survey'
+    url: 'mongodb://gurvk:gurvk123@ds039017.mlab.com:39017/googlekeep'
 }
