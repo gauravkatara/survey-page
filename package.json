@@ -1,0 +1,18 @@
+{
+  "name": "herokubeginner",
+  "version": "1.0.0",
+  "description": "Hello world program for Heroku deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Gaurav Katara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "heroku": "^7.18.5"
+  }
+}
