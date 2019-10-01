@@ -15,7 +15,7 @@ app.use(bodyParser.json())
 app.use('/api/question', questionRouter);
 
 app.get('/', (req, res) => {
-  res.send('Hello World Test!!!');
+  res.send('Hello World!!!');
 });
 
 app.get('/echo/:name', (req, res) => {
@@ -26,5 +26,5 @@ app.get('/echo/:name', (req, res) => {
 const port = process.env.PORT || 7000;
 
 app.listen(port, () => {
-  console.log(`Hello Port Test: ${port}`);
+  console.log(`Port: ${port}`);
 });
