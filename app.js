@@ -13,5 +13,5 @@ app.get('/echo/:name', (req, res) => {
 const port = process.env.PORT || 7000;
 
 app.listen(port, () => {
-  console.log(`Hello ${port}`);
+  console.log(`Hello Port: ${port}`);
 });
