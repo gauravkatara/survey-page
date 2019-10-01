@@ -15,7 +15,7 @@ app.use(bodyParser.json())
 app.use('/api/question', questionRouter);
 
 app.get('/', (req, res) => {
-  res.send('Hello World Test!!!');
+  res.send('Hello World!!!');
 });
 
 app.get('/echo/:name', (req, res) => {
